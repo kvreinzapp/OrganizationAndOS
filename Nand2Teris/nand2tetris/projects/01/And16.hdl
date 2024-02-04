@@ -45,7 +45,7 @@ CHIP And16 {
 		Not(in = aNandb12, out = out[12]);
 		Nand(a = a[13], b = b[13], out = aNandb13);
 		Not(in = aNandb13, out = out[13]);
-		Nand(a = a[14], b = b[5], out = aNandb14);
+		Nand(a = a[14], b = b[14], out = aNandb14);
 		Not(in = aNandb14, out = out[14]);
 		Nand(a = a[15], b = b[15], out = aNandb15);
 		Not(in = aNandb15, out = out[15]);
