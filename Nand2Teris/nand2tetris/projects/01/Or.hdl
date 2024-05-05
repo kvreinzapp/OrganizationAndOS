@@ -18,6 +18,6 @@ CHIP Or {
 		// NOT(NOT(a)And NOT(b));
 		Not(in = a, out = nota);
 		Not(in = b, out = notb);
- 		And(a = nota, b = notb, out = aAndb);
+		And(a = nota, b = notb, out = aAndb);
 		Not(in = aAndb, out = out);
 }
