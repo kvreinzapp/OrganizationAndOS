@@ -1,0 +1,3 @@
+- [x] work out
+- [ ] eat
+- [ ] sleep
